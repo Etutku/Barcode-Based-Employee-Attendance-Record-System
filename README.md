@@ -1,5 +1,5 @@
 # Barcode Based Attendance Record System  | AGH Software Studio Project 2
-*  By: Edibe Tutku Gayda, Min Khant, Małgorzata Kuczera, Kaung Sithu
+*  **By**: Edibe Tutku Gayda, Min Khant, Małgorzata Kuczera, Kaung Sithu
 * Original Documentation: []()
 * Project Documentation: []()
 
