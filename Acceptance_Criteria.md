@@ -1,17 +1,20 @@
 # Acceptance Criteria 
---------------------------------------------------------------------------------------------------------------------------------------------------
-1. **As a user**, I want the system to support a variety of barcode types, such as QR codes, traditional barcodes, or custom employee identification barcodes, to accommodate different employee identification methods.
-      - **Priority** --> 
-      - [X]  -
---------------------------------------------------------------------------------------------------------------------------------------------------
-2.  **As a user**, I expect the barcode scanning functionality to work efficiently in different lighting conditions, ensuring reliable scanning both indoors and outdoors.
+
+1.  **As a user**, I expect the barcode scanning functionality to work efficiently in different lighting conditions, ensuring reliable scanning both indoors and outdoors.
       - **Priority** --> 
       - [X] -
 --------------------------------------------------------------------------------------------------------------------------------------------------
-3.  **As a User** I want the system to provide the option to manually enter or edit barcode data in case of scanning difficulties or for any employees without barcode identification.
+
+2.  **As a User** I want the system to provide the option to manually enter or edit barcode data in case of scanning difficulties or for any employees without barcode identification.
       - **Priority** --> 
       - [x] -
 --------------------------------------------------------------------------------------------------------------------------------------------------
+3.  **As an employer** I want to see how many hours was an employee working during specific day,
+  - **Priority** --> 
+      - [] It is shown if time employee was working is less than their working hours.
+      - [] The time at which the employee clocked in and out is shown.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
 4.  **As a user**, I expect the system to capture and store the timestamp along with the scanned barcode to accurately record the date and time of employee check-ins and check-outs.
       - **Priority** --> 
       - [x] -
@@ -52,3 +55,38 @@
 13.  **As a user**,  I want the system to be responsive and accessible from a variety of devices, including desktop computers, tablets, and smartphones.
       - **Priority** --> 
       - [x] -
+-------------------------------------------------------------------------------------------------------------------------------------------------
+14.  **As an employer**, I want to be able to add a new employee to the database.
+  - **Priority** --> 
+      - [] New employee has to have new unused ID.
+      - [] All kinds of data can be added, but name, email adress and their role in the team is mandatory.
+      - [] The data can be changed later in case of a mistake or change in adress etc.
+      - [] The ID cannot be changed.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+15.  **As an employer**, I want to be able to see how many times was an employee absent this year.
+  - **Priority** --> 
+      - [] The number of times the employee was absent can be viewed.
+      - [] The number of times the employee was present can be viewed.
+      - [] The percentage of attendance can be viewed.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+16.  **As a manager**, I want to view the attendance records of my team members for a specific date or period.
+  - **Priority** --> 
+      - [] The attendace record can be viewed for a chosen month or year.
+      - [] There is an option to view all-time attendance record for a specific employee.
+      - [] Total number of absences, presence and precentage can be viewed.
+      - [] Specific days the employee was absent can be viewed.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+17.  **As a system administrator**, I want to ensure the system is secure and only authorized personnel can access and modify attendance data.
+  - **Priority** --> 
+      - [] Only admin can modify already recorded attendance data.
+      - [] Employees have to use barcode/QR code that is unique to them to record their attendance.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+18.  **As an employee**, I want to see a summary of my attendance history.modify attendance data.
+  - **Priority** --> 
+      - [] An employee can view their attendance history for chosen month, year or all-time.
+      - [] The total number of absence, presence and the precentage of attendance.
+      - [] Specific days the employee was absent can be viewed.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
