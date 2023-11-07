@@ -2,12 +2,12 @@
 
 1.  **As a user**, I expect the barcode scanning functionality to work efficiently in different lighting conditions, ensuring reliable scanning both indoors and outdoors.
       - **Priority** --> 
-      - [X] -
+      - [ ] -
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 2.  **As a User** I want the system to provide the option to manually enter or edit barcode data in case of scanning difficulties or for any employees without barcode identification.
       - **Priority** --> 
-      - [x] -
+      - [ ] -
 --------------------------------------------------------------------------------------------------------------------------------------------------
 3.  **As an employer** I want to see how many hours was an employee working during specific day,
   - **Priority** --> 
