@@ -67,8 +67,8 @@
 
 9. **Project Management and Version Control**:
    - **_Git_**: To manage the project's source code and collaborate with a development team.
-   - **GitHub, GitLab, or Bitbucket**: Platforms for hosting and managing your project's repository.
+   - **GitHub**
 
 10. **Deployment**:
-    - **_Web Hosting_**: Choose a web hosting service or cloud platform for deploying your application. Some options include **Heroku**, **Amazon Web Services (AWS)**, or **Google Cloud Platform (GCP)**.
+    - **_Web Hosting_**:  **Google Cloud Platform (GCP)**.
 
