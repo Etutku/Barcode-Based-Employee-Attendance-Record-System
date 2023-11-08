@@ -81,12 +81,17 @@
       - [ ] Only admin can modify already recorded attendance data.
       - [ ] Employees have to use barcode/QR code that is unique to them to record their attendance.
 -------------------------------------------------------------------------------------------------------------------------------------------------
-18.  **As an employee**, I want to see a summary of my attendance history.modify attendance data.
+18.  **As an employer** I want to be able to change the payroll.
+  - **Priority** --> 
+      - [ ] The payment is specified for each employee.
+      - [ ] It can be changed anytime by an employer.
+      - [ ] Each employee can see their current payment.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+19.  **As an employee**, I want to see a summary of my attendance history modify attendance data.
   - **Priority** --> 
       - [ ] An employee can view their attendance history for chosen month, year or all-time.
       - [ ] The total number of absence, presence and the precentage of attendance.
       - [ ] Specific days the employee was absent can be viewed.
 -------------------------------------------------------------------------------------------------------------------------------------------------
-
 
 
