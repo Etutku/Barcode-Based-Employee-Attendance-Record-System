@@ -94,4 +94,8 @@
       - [ ] Specific days the employee was absent can be viewed.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
+20.  As an admin, I want to set working hours and overtime rules for employees.
+  - **Priority** --> 
+      - [ ] Working hous may differ for different employees.
+      - [ ] Each employee can see set working hours and overtime rules.
 
