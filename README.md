@@ -6,11 +6,11 @@
 | No. | Table of Contents                                                                   |
 | --- | ----------------------------------------------------------------------- |
 | 1   | [**Project Description**]()  
-| 2   | [**User Stories**]() |
+| 2   | [**User Stories**](https://github.com/Etutku/QRBarcode-Based-Employee-Attendance-Record-System/blob/main/User_Stories.md) |
 | 3   | [**Instruction**]()   |
 | 4   | [**Project Base**]()   |
-| 5   | [**Project Repository**]()   |
-| 6   | [**Acceptance Criteria**]()   |        
+| 5   | [**QR Implementation**](https://github.com/Etutku/QRBarcode-Based-Employee-Attendance-Record-System/tree/main/QR/Employee)   |
+| 6   | [**Acceptance Criteria**](https://github.com/Etutku/QRBarcode-Based-Employee-Attendance-Record-System/blob/main/Acceptance_Criteria.md)   |        
 | 7   | [**Graphics/Modes**]()   |
 | 8   | [**Firebase**](https://console.firebase.google.com/u/1/project/employee-attendance-syst-4e7a6/overview?pli=1) |
 
@@ -43,12 +43,12 @@
    -  **_Flask_**: A lightweight Pyhton web framework for building the web application.
    -  **_SQLAlchemy_**: For database management and interactions.
 
-3. **Database**:
+3. **Database**: [X]
    - **_Relational Datavase Management System (RDBMS)_**:  To store employee attendance data. Popular choices include:
        - **MySQL**
        - **PostgreSQL**
 
-4. **Networking**:
+4. **Networking**: [X]
    - **_Local Network Configuration_**: To ensure that devices can communicate within the same local network.
 
 5. **QR Code Generation**:
