@@ -12,7 +12,7 @@
 | 5   | [**Project Repository**]()   |
 | 6   | [**Acceptance Criteria**]()   |        
 | 7   | [**Graphics/Modes**]()   |
-
+| 8   | [**Firebase**](https://console.firebase.google.com/u/1/project/employee-attendance-syst-4e7a6/overview?pli=1) |
 
 ## Project Description 
   * QR Code Employee Attendance System is a highly efficient, swift, and user-friendly tool designed for monitoring employee attendance within a company. It leverages the power of QR codes to streamline the process. For instance, when an employee is working online, it logs their login and logout times as timestamps. Our project utilizes HTML, CSS, and Flask to create a web-based interface, making attendance management convenient and accessible. This system seamlessly operates when devices are connected to the same local network.
