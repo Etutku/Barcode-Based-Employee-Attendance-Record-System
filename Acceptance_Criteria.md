@@ -113,3 +113,8 @@
       - [ ] Deactivated account can be reactivated.
       - [ ] Deactivated account cannot be used until it is reactivated.
       - [ ] When the account is deactivated the data is not deleted.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+23. As an employer I want to be able to set a day free for every employee for example for holidays.
+  - **Priority** --> 
+      - [ ] All of the employees can see that the day is free.
+      - [ ] This day won't be counted as absent day.
