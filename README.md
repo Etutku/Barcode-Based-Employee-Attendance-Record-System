@@ -10,12 +10,12 @@
 | 3   | [**Instruction**]()   |
 | 4   | [**Project Base**]()   |
 | 5   | [**QR Implementation**](https://github.com/Etutku/QRBarcode-Based-Employee-Attendance-Record-System/tree/main/QR/Employee)   |
-| 6   | [**Acceptance Criteria**](https://github.com/Etutku/QRBarcode-Based-Employee-Attendance-Record-System/blob/main/Acceptance_Criteria.md)   |        
-| 7   | [**Graphics/Modes**]()   |
+| 6   | [**Acceptance Criteria**](https://github.com/Etutku/QRBarcode-Based-Employee-Attendance-Record-System/blob/main/Acceptance_Criteria.md)   |  
+| 7   | [**Graphics/Modes**](https://github.com/Etutku/QRBarcode-Based-Employee-Attendance-Record-System/tree/main/Graphics)   |
 | 8   | [**Firebase**](https://console.firebase.google.com/u/1/project/employee-attendance-syst-4e7a6/overview?pli=1) |
 
 ## Project Description 
-  * QR Code Employee Attendance System is a highly efficient, swift, and user-friendly tool designed for monitoring employee attendance within a company. It leverages the power of QR codes to streamline the process. For instance, when an employee is working online, it logs their login and logout times as timestamps. Our project utilizes HTML, CSS, and Flask to create a web-based interface, making attendance management convenient and accessible. This system seamlessly operates when devices are connected to the same local network.
+  * QR Code Employee Attendance System is a highly efficient, swift, and user-friendly tool designed for monitoring employee attendance within a company. It leverages the power of QR codes to streamline the process. For instance, when an employee is working online, it logs their login and logout times as timestamps. Our project utilizes **_HTML, CSS, and JavaScript_** to create a web-based interface, making attendance management convenient and accessible. This system seamlessly operates when devices are connected to the same local network.
 
   * The company can present the QR code through a webpage, or in situations like conferences, attendance can be collected using a projector, allowing present employees to effortlessly scan and record their attendance.
 
@@ -40,19 +40,15 @@
  
 2. **Back-end Technology**:
    -  **_Pyhton_**: As the primary programming language for back end.
-   -  **_Flask_**: A lightweight Pyhton web framework for building the web application.
-   -  **_SQLAlchemy_**: For database management and interactions.
 
 3. **Database**: [X]
    - **_Relational Datavase Management System (RDBMS)_**:  To store employee attendance data. Popular choices include:
-       - **MySQL**
-       - **PostgreSQL**
-
+   - 
 4. **Networking**: [X]
    - **_Local Network Configuration_**: To ensure that devices can communicate within the same local network.
 
 5. **QR Code Generation**:
-   - **_Python QR Code Library_**: To generate QR codes based on the IP addresses.
+   - **_QR Code Library_**: To generate QR codes based on the IP addresses.
 
 6. **Real-Time Updates**:
    - **_WebSockets_**: To enable real-time updates for attendance tracking.
