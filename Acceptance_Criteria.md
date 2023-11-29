@@ -98,4 +98,18 @@
   - **Priority** --> 
       - [ ] Working hous may differ for different employees.
       - [ ] Each employee can see set working hours and overtime rules.
+-------------------------------------------------------------------------------------------------------------------------------------------------
 
+21.  As a system administrator, I want to ensure the system is secure and only authorized personnel can access and modify attendance data.
+  - **Priority** --> 
+      - [ ] An employee can view their attendance history for chosen month, year or all-time.
+      - [ ] The total number of absence, presence and the precentage of attendance.
+      - [ ] Specific days the employee was absent can be viewed.
+            
+-------------------------------------------------------------------------------------------------------------------------------------------------
+22. As an HR administrator, I want to be able to deactivate or reactivate employee accounts.
+  - **Priority** --> 
+      - [ ] Newly added employee's account has to be activated.
+      - [ ] Deactivated account can be reactivated.
+      - [ ] Deactivated account cannot be used until it is reactivated.
+      - [ ] When the account is deactivated the data is not deleted.
