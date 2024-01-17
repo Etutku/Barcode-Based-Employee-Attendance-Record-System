@@ -1,0 +1,101 @@
+<!-- EMPLOYEE INFORMATION ADD, SEARCH, UPDATE, DELETE -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--  CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Images/favicon-icon.svg">    
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="../QR-Code Generator/qrcode.min.js"></script>
+    <!-- Firebase -->
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBOlMplIQZ5G1VU1Sj0Lk6y61YydnSDRuM",
+          authDomain: "employee-attendance-syst-4e7a6.firebaseapp.com",
+          databaseURL: "https://employee-attendance-syst-4e7a6-default-rtdb.firebaseio.com",
+          projectId: "employee-attendance-syst-4e7a6",
+          storageBucket: "employee-attendance-syst-4e7a6.appspot.com",
+          messagingSenderId: "750909156242",
+          appId: "1:750909156242:web:38c5f0f2a4ccd68df6ef4b",
+          measurementId: "G-1DD1HMFL6X"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+    <title>QR Based Employee Attendance System</title>
+</head>
+
+<body id="add-data-body">
+
+    <div>
+
+        <div>
+            <h1 id="h1">Student INFORMATION</h1>
+            <img class="float-right" onclick="avatar()" src="Images/avatar.svg" alt="avatar" id="avatar">
+        </div>
+
+
+        <br>
+        <div class="container col-md-5 sf" >
+        Student ID:<input type="text" class="form-control" id="a" placeholder="ID">
+        Student Name:<input type="text" class="form-control" id="b" placeholder="Name">
+        Contact:<input type="text" class="form-control" id="c" placeholder="Contact">
+        Email:<input type="text" class="form-control" id="d" placeholder="Email"> 
+        </div>
+
+        <br>
+
+        <div id="sf-btn"> 
+            <button class="btn btn-light" id="add" onclick="adding()">&nbsp; ADD &nbsp; </button>
+            <button class="btn btn-light" id="search" onclick="search()">SEARCH</button>
+            <button class="btn btn-light" id="update" onclick="update()">UPDATE</button>
+            <button class="btn btn-light" id="del" onclick="del()">DELETE</button>
+        
+        </div>
+
+        <!-- QR Generation -->
+        <div id="qr0">
+        </div>
+
+
+        <div id="foot">
+            <a target="_blank" href="https://github.com/Daniyalzakir321" id="git-link">© 2023 Copyright: Software Studio 2</a>
+            <img src="Images/logout.svg" class="float-right" alt="logout" onclick="logOut()" id="logout">
+        </div>
+
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+<script src="app.js"></script>
+<script src="Sweet Alert JS/sweetalert2@9.js"></script>
+
+</html>
